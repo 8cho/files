@@ -78,6 +78,10 @@ p {
   font-weight: 400 !important;
 }
 
+p .notion-link {
+  color: #f05454 !important;
+}
+
 .notion-collection-gallery {
   /*grid-template-columns: 1fr 1fr !important;*/
   grid-gap: 20px 40px !important;
