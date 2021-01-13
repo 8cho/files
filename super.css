@@ -78,12 +78,13 @@ p {
   font-weight: 400 !important;
 }
 
-.notion-link {
+p .notion-link {
   border-bottom: 1px solid #f05454 !important;
   opacity: 1 !important;
+  transition: color ease-in .1s !important;
 }
 
-.notion-link:hover {
+p .notion-link:hover {
   color: #f05454 !important;
 }
 
