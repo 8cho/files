@@ -133,41 +133,39 @@ p {
 }
 
 /* Social buttons */
-<style>
-	.notion-callout {
-		border-radius: 100px !important;
-		position: relative !important;
-		padding: 16px 24px !important;
-		border: none !important;
-	}
-	
-	.notion-callout.bg-blue-light {
-		box-shadow: 0 10px 20px -10px #1ea0f0 !important;
-		background: #1ea0f0 !important;
-	}
-  
-	.notion-callout.bg-pink-light {
-		box-shadow: 0 10px 20px -10px #d72a7d !important;
-		background: #d72a7d !important;
-	}
-  
-	.notion-callout.bg-gray-light {
-		box-shadow: 0 10px 20px -10px #0a66c2 !important;
-		background: #0a66c2 !important;
-	}
+.notion-callout {
+	border-radius: 100px !important;
+	position: relative !important;
+	padding: 16px 24px !important;
+	border: none !important;
+}
 
-	.notion-callout a {
-		letter-spacing: -0.5px !important;
-		padding: 0 0 2px 66px !important;
-		align-items: center !important;
-		position: absolute !important;
-		font-weight: 600 !important;
-		display: flex !important;
-		border: none !important;
-		color: #fff !important;
-		bottom: 0 !important;
-		right: 0 !important;
-		left: 0 !important;
-		top: 0 !important;
-	}
-</style>
+.notion-callout.bg-blue-light {
+	box-shadow: 0 10px 20px -10px #1ea0f0 !important;
+	background: #1ea0f0 !important;
+}
+
+.notion-callout.bg-pink-light {
+	box-shadow: 0 10px 20px -10px #d72a7d !important;
+	background: #d72a7d !important;
+}
+
+.notion-callout.bg-gray-light {
+	box-shadow: 0 10px 20px -10px #0a66c2 !important;
+	background: #0a66c2 !important;
+}
+
+.notion-callout a {
+	letter-spacing: -0.5px !important;
+	padding: 0 0 2px 66px !important;
+	align-items: center !important;
+	position: absolute !important;
+	font-weight: 600 !important;
+	display: flex !important;
+	border: none !important;
+	color: #fff !important;
+	bottom: 0 !important;
+	right: 0 !important;
+	left: 0 !important;
+	top: 0 !important;
+}
