@@ -140,19 +140,9 @@ p {
 	border: none !important;
 }
 
-.notion-callout.bg-blue-light {
-	box-shadow: 0 10px 20px -10px #1ea0f0 !important;
-	background: #1ea0f0 !important;
-}
-
-.notion-callout.bg-pink-light {
-	box-shadow: 0 10px 20px -10px #d72a7d !important;
-	background: #d72a7d !important;
-}
-
-.notion-callout.bg-gray-light {
-	box-shadow: 0 10px 20px -10px #0a66c2 !important;
-	background: #0a66c2 !important;
+.notion-callout.bg-red-light {
+	box-shadow: 0 10px 20px -10px #f05454 !important;
+	background: #f05454 !important;
 }
 
 .notion-callout a {
