@@ -102,6 +102,7 @@ p .notion-link:hover {
 
 .notion-collection-card {
   overflow: visible !important;
+  box-shadow: none !important;
 }
 
 .notion-collection-card:hover {
