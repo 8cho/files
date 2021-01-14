@@ -97,7 +97,7 @@ p .notion-link:hover {
   /*grid-template-columns: 1fr 1fr !important;*/
   grid-gap: 40px !important;
   border: none !important;
-  transform:rotate(0.0rad);
+  transform: rotate(0.0rad);
 }
 
 .notion-collection-card {
