@@ -2,7 +2,6 @@
   :root {
     --bg-color: #f4f4f2;
     --type-color: #373a40;
-    --type-color-alt: #f4f4f2;
     --type-color-light: #ddd;
   }
   .notion-navbar {
@@ -14,8 +13,7 @@
   :root {
     --bg-color: #373a40;
     --type-color: #f4f4f2;
-    --type-color-alt: #f4f4f2;
-    --type-color-light: #555;
+    --type-color-light: #777;
   }
   .notion-navbar {
     background: rgba(55, 58, 64, 0.2) !important;
@@ -24,6 +22,7 @@
 
 :root {
   --accent-color: #f05454;
+  --accent-color-alt: #a685e2;
   --color-bg-default: var(--bg-color) !important;
   --color-text-default: var(--type-color) !important;
   --color-text-default-light: var(--type-color-light) !important;
@@ -165,13 +164,6 @@ p .notion-link:hover {
   line-height: 1 !important;
 }
 
-/*.notion-collection-card .notion-property__title .notion-semantic-string:before {
-    content: "⚛︎";
-    font-weight: 100;
-    color: var(--accent-color);
-    margin-right: 3px;
-}*/
-
 
 .notion-collection-card__cover,
 .notion-collection-card__cover div,
@@ -211,13 +203,25 @@ p .notion-link:hover {
   font-weight: 600 !important;
   font-style: italic !important;
   font-size: 20px !important;
-  color: var(--type-color-alt) !important;
+  color: var(--accent-color-alt) !important;
   border-left: none !important;
   padding: 0 !important;
   margin: 0 !important;
   display: inline-block !important;
-  width: 80px !important;
+  width: 200px !important;
   position: absolute !important;
-  top: 23px !important;
-  left: 95px;
+  top: -10px !important;
+  left: 90px;
+  transform: rotateZ(-10deg);
+}
+
+#block-962ebfcfaf8244fca2b0b3196d358435 blockquote:before {
+  content: "ノ";
+  font-size: 15px;
+  font-weight: 100;
+  color: var(--accent-color-alt);
+  opacity: 0.5 !important;
+  position: absolute;
+  top: 25px;
+  left: -5px;
 }
