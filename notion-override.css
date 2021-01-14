@@ -1,10 +1,32 @@
-* {
-  text-decoration: none !important;
-  outline: none !important;
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-color: #f4f4f2;
+    --type-color: #373a40;
+  }
+  .notion-navbar {
+    background: rgba(244, 244, 242, 0.2) !important;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #373a40;
+    --type-color: #f4f4f2;
+  }
+  .notion-navbar {
+    background: rgba(55, 58, 64, 0.2) !important;
+  }
 }
 
 :root {
   --accent-color: #f05454;
+  --color-bg-default: var(--bg-color) !important;
+  --color-text-default: var(--type-color) !important;
+}
+
+* {
+  text-decoration: none !important;
+  outline: none !important;
 }
 
 .notion-collection__header,
@@ -18,8 +40,7 @@
 }
 
 .notion-navbar {
-  background: rgba(255, 255, 255, 0.2) !important;
-  -webkit-backdrop-filter: blur(15px) brightness(110%) !important;
+  -webkit-backdrop-filter: blur(15px) !important;
   backdrop-filter: blur(15px) brightness(110%) !important;
   height: 50px !important;
   font-family: "Montserrat", sans-serif !important;
@@ -53,7 +74,7 @@ h2,
 h3 {
   font-family: "Playfair Display", serif !important;
   font-weight: 700 !important;
-  color: #222831 !important;
+  color: var(--type-color) !important;
 }
 
 h1 {
@@ -71,7 +92,7 @@ blockquote {
   font-weight: 600 !important;
   font-style: italic !important;
   font-size: 16px !important;
-  color: #30475e !important;
+  color: var(--alt-text-color) !important;
   border-left: none !important;
   padding: 0 !important;
   margin: 0 !important;
