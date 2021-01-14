@@ -2,6 +2,7 @@
   :root {
     --bg-color: #f4f4f2;
     --type-color: #373a40;
+    --type-color-light: #bbb;
   }
   .notion-navbar {
     background: rgba(244, 244, 242, 0.2) !important;
@@ -12,6 +13,7 @@
   :root {
     --bg-color: #373a40;
     --type-color: #f4f4f2;
+    --type-color-light: #666;
   }
   .notion-navbar {
     background: rgba(55, 58, 64, 0.2) !important;
@@ -20,7 +22,6 @@
 
 :root {
   --accent-color: #f05454;
-  --type-color-light: #777;
   --color-bg-default: var(--bg-color) !important;
   --color-text-default: var(--type-color) !important;
   --color-text-default-light: var(--type-color-light) !important;
