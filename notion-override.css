@@ -104,10 +104,15 @@ p .notion-link:hover {
   overflow: visible !important;
 }
 
+.notion-collection-card:hover {
+  background: none !important;
+}
+
 .notion-collection-card__cover {
   transition: all 0.2s ease !important;
   border-radius: 12px !important;
   height: 280px !important;
+  box-shadow: 0 0 0 1px rgba(15,15,15,.1), 0 2px 4px rgba(15,15,15,.1);
 }
 
 .notion-collection-card__cover:hover {
