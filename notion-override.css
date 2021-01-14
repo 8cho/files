@@ -199,10 +199,9 @@ p .notion-link:hover {
 }
 
 #block-962ebfcfaf8244fca2b0b3196d358435 blockquote {
-  font-family: 'Gamja Flower', cursive !important;
-  font-weight: 600 !important;
-  font-style: italic !important;
-  font-size: 20px !important;
+  font-family: 'Gamja Flower', sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 30px !important;
   color: var(--accent-color-alt) !important;
   border-left: none !important;
   padding: 0 !important;
@@ -210,18 +209,18 @@ p .notion-link:hover {
   display: inline-block !important;
   width: 200px !important;
   position: absolute !important;
-  top: -10px !important;
+  top: -15px !important;
   left: 90px;
   transform: rotateZ(-10deg);
 }
 
 #block-962ebfcfaf8244fca2b0b3196d358435 blockquote:before {
   content: "ノ";
-  font-size: 15px;
-  font-weight: 100;
+  font-size: 24px;
+  font-weight: 400;
   color: var(--accent-color-alt);
-  opacity: 0.3 !important;
+  opacity: 0.5 !important;
   position: absolute;
-  top: 25px;
+  top: 28px;
   left: -5px;
 }
