@@ -20,8 +20,10 @@
 
 :root {
   --accent-color: #f05454;
+  --type-color-light: #777;
   --color-bg-default: var(--bg-color) !important;
   --color-text-default: var(--type-color) !important;
+  --color-text-default-light: var(--type-color-light) !important;
 }
 
 * {
