@@ -101,29 +101,28 @@ p .notion-link:hover {
 .notion-collection-card {
   transition: all 0.2s ease !important;
   box-shadow: none !important;
-  opacity: 0.8 !important;
 }
 
 .notion-collection-card:hover {
   transform: scale(1.02) !important;
+  box-shadow: 0 10px 20px -10px var(--accent-color) !important;
   background: none !important;
-  opacity: 1 !important;
 }
 
 .notion-collection-card .notion-property__title {
-  background: rgba(0, 0, 0, 0.5);
-  background: linear-gradient(0deg, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.15) 85%, rgba(0,0,0,0) 100%);
-  top: -37px !important;
+  background: rgba(255, 255, 255, 0.3);
+  top: -34px !important;
   position: relative !important;
   border-radius: 0 0 12px 12px !important;
+  -webkit-backdrop-filter: blur(3px) !important;
+  backdrop-filter: blur(3px) !important;
 }
 
 .notion-collection-card .notion-property__title .notion-semantic-string {
   font-family: "Montserrat", sans-serif !important;
-  color: #fff !important;
-  text-shadow: 0 1px 3px rgba(0,0,0,0.8) !important;
-  font-size: 14px !important;
-  font-weight: 700 !important;
+  color: #000 !important;
+  font-size: 12px !important;
+  font-weight: 600 !important;
   text-transform: uppercase !important;
 }
 
