@@ -51,6 +51,10 @@
   text-transform: uppercase !important;
 }
 
+.notion-navbar a.notion-breadcrumb__item {
+  border-radius: 80px !important;
+}
+
 .notion-navbar a.notion-breadcrumb__item:hover {
   background-color: var(--type-color-light) !important;
 }
