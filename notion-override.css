@@ -22,7 +22,7 @@
 
 :root {
   --accent-color: #f05454;
-  --accent-color-alt: #a685e2;
+  --accent-color-alt: #697eff;
   --color-bg-default: var(--bg-color) !important;
   --color-text-default: var(--type-color) !important;
   --color-text-default-light: var(--type-color-light) !important;
@@ -220,7 +220,7 @@ p .notion-link:hover {
   font-size: 15px;
   font-weight: 100;
   color: var(--accent-color-alt);
-  opacity: 0.5 !important;
+  opacity: 0.3 !important;
   position: absolute;
   top: 25px;
   left: -5px;
