@@ -2,7 +2,7 @@
   :root {
     --bg-color: #f4f4f2;
     --type-color: #373a40;
-    --type-color-light: #bbb;
+    --type-color-light: #ddd;
   }
   .notion-navbar {
     background: rgba(244, 244, 242, 0.2) !important;
@@ -13,7 +13,7 @@
   :root {
     --bg-color: #373a40;
     --type-color: #f4f4f2;
-    --type-color-light: #666;
+    --type-color-light: #555;
   }
   .notion-navbar {
     background: rgba(55, 58, 64, 0.2) !important;
@@ -49,6 +49,10 @@
   font-family: "Montserrat", sans-serif !important;
   font-weight: 600 !important;
   text-transform: uppercase !important;
+}
+
+.notion-navbar a.notion-breadcrumb__item:hover {
+  background-color: var(--type-color-light) !important;
 }
 
 .notion-navbar a.notion-breadcrumb__item:last-child {
