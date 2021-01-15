@@ -3,7 +3,7 @@
     --bg-color: #f4f4f2;
     --type-color: #373a40;
     --type-color-light: #ddd;
-    --nav-hover-bg: rgba(255, 255, 255, 0.8);
+    --nav-hover-bg: rgba(255, 255, 255, 1);
   }
   .notion-navbar {
     background: rgba(244, 244, 242, 0.2) !important;
