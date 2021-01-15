@@ -249,15 +249,15 @@ p .notion-link:hover {
   margin-bottom: 10px;
   position: relative;
   border: 0 !important;
-  padding-left: 36px;
+  padding-left: 50px;
   font-family: "Montserrat", sans-serif;
-  font-size: 14px;
-  font-weight: 400;
+  font-size: 24px;
+  font-weight: 300;
 }
 
 #block-d675ca87a3f2413b9a5a8eabbeb423e7 .notion-text a:hover {
   color: #fff !important;
-  padding-left: 28px;
+  padding-left: 42px;
   padding-bottom: 0px !important;
 }
 
@@ -267,7 +267,7 @@ p .notion-link:hover {
   font-style: normal;
   font-variant: normal;
   font-weight: 100 !important;
-  font-size: 16px;;
+  font-size: 24px;;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   display: inline-block;
@@ -278,12 +278,12 @@ p .notion-link:hover {
   left: 0px;
   top: -4px;
   z-index: -1;
-  width: 21px;
+  width: 30px;
   transition: all ease-in .2s !important;
 }
 
 #block-d675ca87a3f2413b9a5a8eabbeb423e7 .notion-text a:before {
-  padding-left: 7px;
+  padding-left: 10px;
 }
 
 #block-d675ca87a3f2413b9a5a8eabbeb423e7 .notion-text a:hover:before {
