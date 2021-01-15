@@ -246,12 +246,12 @@ p .notion-link:hover {
 /* Links */
 #block-d675ca87a3f2413b9a5a8eabbeb423e7 .notion-text a {
   display: inline-block;
-  margin-bottom: 10px;
+  margin: 10px 0;
   position: relative;
   border: 0 !important;
   padding-left: 50px;
   font-family: "Montserrat", sans-serif;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 300;
 }
 
@@ -273,10 +273,10 @@ p .notion-link:hover {
   display: inline-block;
   padding: 2px 0;
   text-align: left;
-  border-radius: 8px;
+  border-radius: 12px;
   position: absolute;
   left: 0px;
-  top: -4px;
+  top: -8px;
   z-index: -1;
   width: 30px;
   transition: all ease-in .2s !important;
