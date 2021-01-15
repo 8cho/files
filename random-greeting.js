@@ -3,7 +3,10 @@ function shuffleGreeting() {
     "Oh, hi!",
     "Buenas",
     "Hi there",
-    "やぁ〜"
+    "やぁ〜",
+    "'sup",
+    "Ciao!",
+    "42"
   ];
 
   var randomGreeting = greeting[Math.floor(Math.random()*greeting.length)];

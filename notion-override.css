@@ -119,6 +119,7 @@ p .notion-link:hover {
   grid-gap: 0px 40px !important;
   border: none !important;
   transform: rotate(0.0rad);
+  padding-top: 0 !important;
 }
 
 .notion-collection-card {
