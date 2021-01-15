@@ -53,16 +53,11 @@
 }
 
 .notion-navbar a.notion-breadcrumb__item {
-  border-radius: 0px !important;
+  border-radius: 80px !important;
 }
 
-.notion-navbar a.notion-breadcrumb__item .notion-navbar__title {
-  border-bottom: 2px solid rgba(0,0,0,0) !important;
-  transition: all ease-in .2s !important;
-}
-
-.notion-navbar a.notion-breadcrumb__item:hover .notion-navbar__title {
-  border-bottom: 2px solid var(--nav-hover-bg) !important;
+.notion-navbar a.notion-breadcrumb__item:hover {
+  background-color: var(--type-color-light) !important;
 }
 
 .notion-navbar a.notion-breadcrumb__item:last-child {
