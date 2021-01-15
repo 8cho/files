@@ -3,6 +3,7 @@
     --bg-color: #f4f4f2;
     --type-color: #373a40;
     --type-color-light: #ddd;
+    --nav-hover-bg: rgba(255, 255, 255, 0.8);
   }
   .notion-navbar {
     background: rgba(244, 244, 242, 0.2) !important;
@@ -14,6 +15,7 @@
     --bg-color: #373a40;
     --type-color: #f4f4f2;
     --type-color-light: #777;
+    --nav-hover-bg: rgba(0, 0, 0, 0.2);
   }
   .notion-navbar {
     background: rgba(55, 58, 64, 0.2) !important;
@@ -52,12 +54,8 @@
   text-transform: uppercase !important;
 }
 
-.notion-navbar a.notion-breadcrumb__item {
-  border-radius: 80px !important;
-}
-
 .notion-navbar a.notion-breadcrumb__item:hover {
-  background-color: var(--type-color-light) !important;
+  background-color: var(--nav-hover-bg) !important;
 }
 
 .notion-navbar a.notion-breadcrumb__item:last-child {
