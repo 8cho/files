@@ -35,6 +35,20 @@ const greeting = [
   "やぁ〜",
   "'sup",
   "Ciao!",
+//GREETINGS RATE++
+  "Oh, hi!",
+  "Buenas",
+  "Hi there",
+  "やぁ〜",
+  "'sup",
+  "Ciao!",
+//GREETINGS RATE++
+  "Oh, hi!",
+  "Buenas",
+  "Hi there",
+  "やぁ〜",
+  "'sup",
+  "Ciao!",
 //UNLIKELY QUOTES
   "42",
   "Got any grapes?",
