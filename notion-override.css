@@ -97,6 +97,7 @@ h2 {
 
 h3.notion-heading {
   text-align: right !important;
+  white-space: nowrap !important;
 }
 
 @media only screen and (max-width: 680px) {
