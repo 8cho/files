@@ -125,7 +125,7 @@ p {
 p .notion-link {
   border-bottom: 1px solid var(--accent-color) !important;
   opacity: 1 !important;
-  transition: all ease-in .2s !important;
+  transition: all ease-in .1s !important;
 }
 
 p .notion-link:hover {
@@ -283,7 +283,7 @@ p .notion-link:hover {
   top: -8px;
   z-index: -1;
   width: 30px;
-  transition: all ease-in .2s !important;
+  transition: all ease-in .1s !important;
 }
 
 #block-d675ca87a3f2413b9a5a8eabbeb423e7 .notion-text a:before {
