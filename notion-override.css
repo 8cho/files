@@ -180,10 +180,10 @@ p .notion-link:hover {
 }
 
 .notion-collection-card .notion-property__title .notion-semantic-string {
-  font-family: "Montserrat", sans-serif !important;
-  font-size: 16px !important;
+  font-family: "Alice", serif !important;
+  font-size: 18px !important;
   color: var(--type-color);
-  font-weight: 500 !important;
+  font-weight: 400 !important;
   line-height: 1 !important;
 }
 
@@ -259,9 +259,9 @@ p .notion-link:hover {
   position: relative;
   border: 0 !important;
   padding-left: 50px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Alice", serif;
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 #block-d675ca87a3f2413b9a5a8eabbeb423e7 .notion-text a:hover {
