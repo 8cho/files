@@ -41,7 +41,7 @@ const greeting = [
 
 function shuffleGreeting() {
   clickCount++;
-  if (clickCount<10) {
+  if (clickCount<50) {
     const randomGreeting = greeting[Math.floor(Math.random()*greeting.length)];
     document.getElementById("block-cbc6e7f3e0cc4a098a0ab1163de9b210").getElementsByClassName("notion-semantic-string")[0].innerHTML = randomGreeting;
   } else {
