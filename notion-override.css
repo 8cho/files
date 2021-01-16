@@ -106,6 +106,10 @@ h3.notion-heading {
   }
 }
 
+h3.notion-heading .notion-semantic-string {
+  white-space: nowrap !important;
+}
+
 h3.notion-heading .notion-semantic-string span {
   color: var(--type-color) !important;
   font-family: "Playfair Display", serif !important;
