@@ -50,4 +50,4 @@ function shuffleGreeting() {
 }
 
 shuffleGreeting();
-document.getElementsByClassName('notion-breadcrumb__item')[0].addEventListener('click',shuffleGreeting);
+document.addEventListener('click',shuffleGreeting);
