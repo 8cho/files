@@ -37,7 +37,9 @@ const greeting = [
   "Ciao!",
 //UNLIKELY QUOTES
   "42",
-  "Got any grapes?"
+  "Got any grapes?",
+  "Hey! Listen!",
+  "❗️"
 ];
 
 function shuffleGreeting() {
