@@ -113,6 +113,22 @@ h3.notion-heading .notion-semantic-string span {
   font-size: 20px !important;
 }
 
+h3.notion-heading .notion-semantic-string span:before {
+  font-family: "Font Awesome 5 Free";
+  font-size: 16px;
+  margin-right: 6px;
+  color: var(--accent-color);
+}
+
+/* Stuff */ #block-da6e1fd63bcc482584ef75f8cda12d95 .notion-semantic-string span:before {
+  content: "\f52e";
+}
+
+/* Links */ #block-1125f0f600044e44b57a73b13dd00197 .notion-semantic-string span:before {
+  content: "\f0c1";
+}
+
+
 p {
   font-size: 20px !important;
   font-family: "Alice", serif !important;
