@@ -178,7 +178,7 @@ p .notion-link:hover {
 .notion-collection-card .notion-property__title .notion-semantic-string {
   font-family: "Playfair Display", serif !important;
   font-size: 20px !important;
-  color: var(--accent-color);
+  color: var(--type-color);
   font-weight: 600 !important;
   line-height: 1 !important;
 }
