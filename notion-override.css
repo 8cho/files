@@ -232,6 +232,10 @@ p .notion-link:hover {
   transform: rotateZ(-10deg);
 }
 
+#block-962ebfcfaf8244fca2b0b3196d358435 blockquote .notion-semantic-string {
+  white-space: nowrap;
+}
+
 #block-962ebfcfaf8244fca2b0b3196d358435 blockquote:before {
   content: "ノ";
   font-size: 24px;
