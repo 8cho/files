@@ -361,3 +361,8 @@ p .notion-link:hover {
 #block-d675ca87a3f2413b9a5a8eabbeb423e7 .notion-text:nth-child(3) a:hover:before {
   box-shadow: 0 5px 20px -10px #0a66c2;
 }
+
+/* huh */
+#block-7ecb3c0e150b4c3ea4d342098733f048 {
+  display: none !important;
+}
