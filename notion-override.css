@@ -275,7 +275,7 @@ p .notion-link:hover {
 /* Links */
 #block-1b69c2fc48db4fb6b293368508335cc8 .notion-semantic-string a {
   display: inline-block;
-  margin: 10px 0 0 40px;
+  margin: 10px 40px 0 -10px;
   position: relative;
   border: 0 !important;
   padding-left: 40px;
@@ -285,7 +285,7 @@ p .notion-link:hover {
 }
 
 #block-1b69c2fc48db4fb6b293368508335cc8 .notion-semantic-string span:first-child a {
-  margin: 10px 0;
+  margin-left: -10px;
 }
 
 #block-1b69c2fc48db4fb6b293368508335cc8 .notion-semantic-string a:hover {
@@ -356,18 +356,6 @@ p .notion-link:hover {
       /* corner gradients */
       linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
   box-shadow: 0 5px 20px -10px #d9317a;
-  color: #fff !important;
-}
-
-#block-1b69c2fc48db4fb6b293368508335cc8 .notion-semantic-string span:nth-child(3) a:before {
-  font-family: "Font Awesome 5 Brands";
-  content: "\f0e1";
-  color: #0a66c2 !important;
-}
-
-#block-1b69c2fc48db4fb6b293368508335cc8 .notion-semantic-string span:nth-child(3) a:hover:before {
-  background: #0a66c2;
-  box-shadow: 0 5px 20px -10px #0a66c2;
   color: #fff !important;
 }
 
