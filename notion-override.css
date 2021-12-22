@@ -275,10 +275,10 @@ p .notion-link:hover {
 /* Links */
 #block-1b69c2fc48db4fb6b293368508335cc8 .notion-semantic-string a {
   display: inline-block;
-  margin: 10px 40px 0 -10px;
+  margin: 10px 40px 4px -10px;
   position: relative;
   border: 0 !important;
-  padding-left: 40px;
+  padding-left: 36px;
   font-family: "Alice", serif;
   font-size: 18px;
   font-weight: 400;
@@ -295,20 +295,19 @@ p .notion-link:hover {
 
 #block-1b69c2fc48db4fb6b293368508335cc8 .notion-semantic-string a:before {
   content: "";
-  color: #fff !important;
   font-style: normal;
   font-variant: normal;
   font-weight: 100 !important;
-  font-size: 24px;;
+  font-size: 18px;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   display: inline-block;
   padding: 2px 0;
   text-align: left;
-  border-radius: 12px;
+  border-radius: 48px;
   position: absolute;
-  left: 0px;
-  top: -8px;
+  left: 2px;
+  top: -2px;
   z-index: -1;
   width: 30px;
   transition: all ease-in .1s !important;
@@ -337,7 +336,26 @@ p .notion-link:hover {
 #block-1b69c2fc48db4fb6b293368508335cc8 .notion-semantic-string span:nth-child(2) a:before {
   font-family: "Font Awesome 5 Brands";
   content: "\f16d";
-  color: #d9317a !important;
+  background:
+      radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%),
+      radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
+      /* left top */
+      radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%),
+      radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%),
+      /*  right top */
+      radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%),
+      radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%),
+      /* right bottom */
+      radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent),
+      /* create a base coat to smooth */
+      /* corner gradients */
+      linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
 }
 
 #block-1b69c2fc48db4fb6b293368508335cc8 .notion-semantic-string span:nth-child(2) a:hover:before {
@@ -355,6 +373,9 @@ p .notion-link:hover {
       /* create a base coat to smooth */
       /* corner gradients */
       linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+  text-fill-color: #fff;
+  -webkit-text-fill-color: #fff; 
+  -moz-text-fill-color: #fff;
   box-shadow: 0 5px 20px -10px #d9317a;
   color: #fff !important;
 }
