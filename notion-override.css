@@ -189,7 +189,7 @@ p .notion-link:hover {
   box-shadow: 0px -15px 70px -20px rgba(0, 0, 0, 0.5) !important;
   transform: perspective(200px) rotateX(-3deg) rotateZ(4deg) scale(1.07) translate(-10px,-30px);
   background: none !important;
-  z-index: 100 !important;
+  z-index: 1 !important;
 }
 
 .notion-collection-card .notion-property__title {
