@@ -128,11 +128,6 @@ h3.notion-heading .notion-semantic-string span:before {
   content: "\f52e";
 }
 
-/* Links */ #block-1125f0f600044e44b57a73b13dd00197 .notion-semantic-string span:before {
-  content: "\f0c1";
-}
-
-
 p {
   font-size: 20px !important;
   font-family: "Alice", serif !important;
@@ -275,17 +270,13 @@ p .notion-link:hover {
 /* Links */
 #block-1b69c2fc48db4fb6b293368508335cc8 .notion-semantic-string a {
   display: inline-block;
-  margin: 10px 40px 4px -10px;
+  margin: 10px 40px 4px -12px;
   position: relative;
   border: 0 !important;
   padding-left: 36px;
   font-family: "Alice", serif;
   font-size: 18px;
   font-weight: 400;
-}
-
-#block-1b69c2fc48db4fb6b293368508335cc8 .notion-semantic-string span:first-child a {
-  margin-left: -10px;
 }
 
 #block-1b69c2fc48db4fb6b293368508335cc8 .notion-semantic-string a:hover {
